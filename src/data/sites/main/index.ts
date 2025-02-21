@@ -9,6 +9,7 @@ import { RSPlatform } from './groups/rs_platform'
 import { Visulization } from './groups/visualization'
 import { Weather } from './groups/weather'
 import { Awesome } from './groups/awesome'
+import { Custom } from './groups/custom'
 
 export const MainConfig: ISiteConfig = {
   name: '首页',
@@ -23,6 +24,7 @@ export const MainConfig: ISiteConfig = {
     OnlineMap,
     DataSource,
     RSPlatform,
-    Weather
+    Weather,
+    Custom
   ].sort((a, b) => a.order - b.order)
 }
