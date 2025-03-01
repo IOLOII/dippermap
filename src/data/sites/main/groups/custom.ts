@@ -16,6 +16,17 @@ export const Custom: IGroup = {
       site_url: 'https://www.shuzixs.com/#/home',
       order: 1,
       tags: ['数字孪生', '大屏', 'Three', 'Cesium']
+    },
+    {
+      icon: 'https://geojson.io/img/favicon.png',
+      name: '数字像素',
+      en_name: 'PicPark',
+      description:
+        '帮助用户创建、查看和编辑 GeoJSON 格式的地理空间数据。该网站提供直观的界面，允许用户在地图上绘制点、线、多边形等要素，并实时生成相应的 GeoJSON 数据。',
+      en_description: `Helps users create, view, and edit geospatial data in GeoJSON format. The website provides an intuitive interface that allows users to draw points, lines, polygons, and other elements on a map and generate corresponding GeoJSON data in real time.`,
+      site_url: 'https://geojson.io',
+      order: 1,
+      tags: ['geojson', 'mapBox']
     }
   ]
 }
