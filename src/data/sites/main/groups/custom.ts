@@ -27,6 +27,17 @@ export const Custom: IGroup = {
       site_url: 'https://geojson.io',
       order: 1,
       tags: ['geojson', 'mapBox']
+    },
+    {
+      icon: 'https://github.githubassets.com/favicons/favicon-dark.png',
+      name: 'git',
+      en_name: 'git-guide',
+      description:
+        'Git 是一个分布式版本管理工具，版本管理工具就是大家在写东西的时候都用过 回撤这个功能，但是回撤只能回撤几步，假如想要找回我三天之前的修改，光用回撤是找不回来的。而版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。',
+      en_description: `Git is a distributed version management tool, which means that everyone has used the rollback function when writing, but rollback can only be done a few steps. If you want to retrieve my modifications from three days ago, using rollback alone cannot retrieve them. Version management tools can record every modification, and as long as it is submitted to the version repository, the status (text status) of any previous moment can be found.`,
+      site_url: 'https://rogerdudler.github.io/git-guide/index.zh.html',
+      order: 1,
+      tags: ['git']
     }
   ]
 }
