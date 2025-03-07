@@ -10,6 +10,7 @@ import { Visulization } from './groups/visualization'
 import { Weather } from './groups/weather'
 import { Awesome } from './groups/awesome'
 import { Custom } from './groups/custom'
+import { Journal } from './groups/journal'
 
 export const MainConfig: ISiteConfig = {
   name: '首页',
@@ -25,6 +26,7 @@ export const MainConfig: ISiteConfig = {
     DataSource,
     RSPlatform,
     Weather,
-    Custom
+    Custom,
+    Journal
   ].sort((a, b) => a.order - b.order)
 }

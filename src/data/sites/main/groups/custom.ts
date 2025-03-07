@@ -19,7 +19,7 @@ export const Custom: IGroup = {
     },
     {
       icon: 'https://geojson.io/img/favicon.png',
-      name: '数字像素',
+      name: 'GeoJSON Editor',
       en_name: 'PicPark',
       description:
         '帮助用户创建、查看和编辑 GeoJSON 格式的地理空间数据。该网站提供直观的界面，允许用户在地图上绘制点、线、多边形等要素，并实时生成相应的 GeoJSON 数据。',
