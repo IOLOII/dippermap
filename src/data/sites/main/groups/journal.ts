@@ -38,6 +38,17 @@ export const Journal: IGroup = {
       site_url: 'https://aiera.com.cn/',
       order: 3,
       tags: ['git']
+    },
+    {
+      icon: 'https://atomgit.com/favicon.ico',
+      name: 'AtomGit',
+      en_name: 'AtomGit',
+      description:
+        'AtomGit 是开放原子开源基金会提供的代码托管平台，帮助团队更快、更安全地交付更好的软件。',
+      en_description: `AtomGit is a code hosting platform provided by the Open Atom Foundation, helping teams deliver better software faster and more securely.`,
+      site_url: 'https://atomgit.com',
+      order: 4,
+      tags: ['git', 'open-source']
     }
   ]
 }
